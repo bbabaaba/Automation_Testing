@@ -1,5 +1,10 @@
 # Automation_Testing
 
+Part1: UI Automation Test based on Selenium
+
+Part2: API Test based on requests(Python)
+
+
 # UI_test.py:
 
 Automate the test case "Purchase book at Amazon website" based on Selenium Webdriver
