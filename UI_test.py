@@ -33,10 +33,10 @@ class Price(unittest2.TestCase):
         # Finally, check the results;
         # 1. tips "商品已加入购物车" appears
         confirm_text_xpath = u"//div[@id='huc-v2-order-row-confirm-text']/h1"
-        self.assertIn(u"商品已加入购物车", dr.find_element_by_xpath(confirm_text_xpath).text, "fail to judge")
-        # 2. the price of book is "20.40"
+        self.assertIn(u"商品已加入购物车", dr.find_element_by_xpath(confirm_text_xpath).text, "Failed to add to cart.")
+        # 2. the price of book is "20.40", 2017.03.06, the price is 24.50
         price_xpath = u"//div[@id='hlb-subcart']/div/span/span[@class='a-color-price hlb-price a-inline-block a-text-bold']"
-        self.assertIn(u"24.50", dr.find_element_by_xpath(price_xpath).text, "fail to judge")
+        self.assertIn(u"20.40", dr.find_element_by_xpath(price_xpath).text, "Price is not 20.40, failed.")
 
     def tearDown(self):
         self.dr.quit()

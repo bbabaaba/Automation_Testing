@@ -2,16 +2,15 @@
 
 Part1: UI Automation Test based on Selenium
 
-Part2: API Test based on requests(Python)
+Part2: API Test based on requests module ( Python )
 
 
-# UI_test.py:
+### UI_test.py:
 
 Preparation:
 
-1) open Develop option of Safari;
-
-2) Safari -> Preference -> Tab -> choose 'always open on tab'.
+1. open Develop option of Safari;
+2. Safari -> Preference -> Tab -> choose 'always open on tab'.
 
 Automate the test case "Purchase book at Amazon website" based on Selenium Webdriver
 "Purchase book at Amazon website" 
