@@ -23,3 +23,13 @@ And test case steps:
 4. Click "加入购物车" at “软件测试（原书第2版）” page
 5. Assert that text "商品已加入购物车" appears 
 6. Assert that book price is "20.40" (2017.03.06 the price of book is 24.50)
+
+
+### API_test.py:
+
+TestCases:
+
+1. Test Matt Damon is not in actors list of the movie, which subject id is 1304102.
+
+2. Test whether movie, which subject id is 1292052, is the first one in the Top 250 movies.
+

@@ -2,7 +2,8 @@ import requests
 
 
 def get(uri=None, host=None):
-    if uri and host:
+    # Get Method:
+    if uri is None or host is None:
         print "please set value of uri/host, which you want to test."
         return None
     else:
