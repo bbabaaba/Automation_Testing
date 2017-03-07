@@ -7,10 +7,14 @@ Part2: API Test based on requests module ( Python )
 
 ### UI_test.py:
 
-Preparation:
+Safari Setting:
 
 1. open Develop option of Safari;
 2. Safari -> Preference -> Tab -> choose 'always open on tab'.
+
+Preparation:
+
+Python with module unittest2 and selenium installed.
 
 Automate the test case "Purchase book at Amazon website" based on Selenium Webdriver
 "Purchase book at Amazon website" 
@@ -26,6 +30,10 @@ And test case steps:
 
 
 ### API_test.py:
+
+Preparation:
+
+Python with module unittest2 and requests installed.
 
 TestCases:
 
