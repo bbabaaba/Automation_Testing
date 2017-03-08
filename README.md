@@ -4,6 +4,7 @@ Part1: UI Automation Test based on Selenium
 
 Part2: API Test based on requests module ( Python )
 
+Tasks on Github: https://github.com/kasanagimotoko/Automation_Testing/
 
 ### UI_test.py:
 
